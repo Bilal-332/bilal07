@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.table{
+    width: 100%;
+   margin-bottom: 100px;
+}
+.h3{
+    margin: 50px 0 50px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    
+    
+}
+table,tr,td{
+    padding: 20px;
+    border-collapse: collapse;
+    width: 100px;
+    margin: 15px 0 20px 80px;
+    
+}
+table input{
+   
+    height: 30px;
+    
+}
+
+table button{
+    padding: 10px;
+    background-color:rgb(57, 151, 57);
+    color: white;
+    font-size: larger;
+   border-radius: 10px;
+   border-color: white;
+}
+table button:hover{
+    background-color: rgb(19, 137, 19);
+    color: white;
+}

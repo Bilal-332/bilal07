@@ -1,0 +1,122 @@
+html body {
+    font-size: 14px;
+    font-family: 'Oxygen', sans-serif;
+    line-height: 26px;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+.title {
+    margin-top: 10%;
+    text-align: center;
+
+}
+
+.title p {
+    margin-top: 5px;
+    font-size: large;
+}
+
+.title ::after {
+    position: absolute;
+    content: " ";
+    left: 46%;
+    top: 34%;
+    height: 3px;
+    width: 100px;
+    background-color: #003e78;
+
+}
+
+.one {
+    width: 350px;
+    margin-left: 125px;
+    margin-top: 82px;
+    background-color: #f9f9f9;
+    float: left;
+    padding-bottom: 20px;
+
+}
+
+
+.two {
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 82px;
+    background-color: #f9f9f9;
+    float: left;
+    padding-bottom: 20px;
+
+}
+
+.three {
+    width: 350px;
+    margin-left: 885px;
+    margin-top: 100px;
+    background-color: #f9f9f9;
+    padding-bottom: 20px;
+
+}
+
+.four {
+    width: 350px;
+    margin-top: 20px;
+    margin-right: 495px;
+    background-color: #f9f9f9;
+    padding-bottom: 20px;
+    float: right;
+
+}
+
+.five {
+    width: 350px;
+    margin-left: 125px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding-bottom: 20px;
+
+}
+
+
+.image :hover {
+    color: rgb(0, 0, 0);
+    opacity: 60%;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    margin-bottom: -20px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+h4,
+p {
+    padding: 5px;
+    font-size: large;
+}
+
+p {
+    margin-top: -30px;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+
+.more-info a {
+    padding: 5px;
+    color: #003e78;
+    opacity: 30%;
+}

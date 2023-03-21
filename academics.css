@@ -1,0 +1,95 @@
+html body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    line-height: 26px;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    text-align: left;
+    background-color: #fff;
+}
+
+.abt-title {
+    margin-top: 5%;
+
+}
+
+.abt-title h2::after {
+    content: "";
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    height: 5px;
+    width: 100px;
+    background-color: #003e78;
+}
+
+.ls {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+.apply {
+    opacity: 40%;
+}
+
+.apply :hover {
+    color: orange;
+}
+
+
+.rs {
+    position: relative;
+    left: 600px;
+    top: -300px;
+    width: 40%;
+    margin-left: 5%;
+
+
+}
+
+.apply a {
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.application-section {
+    margin-top: -10%;
+    text-align: center;
+}
+
+
+.application-section h2 {
+    font-size: 24pt;
+    text-align: center;
+}
+
+.timeline {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.sec {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rs-timeline-2 div {
+    background-color: #f0f0f0;
+    display: flex;
+    float: left;
+    font-size: 1rem;
+    padding: 10px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    width: 25%;
+}

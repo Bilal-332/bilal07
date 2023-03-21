@@ -1,0 +1,165 @@
+
+
+/*following CSS is written for About( and its sub-pages)*/
+* {
+  box-sizing: border-box;
+}
+/*about us page cs start here*/
+#history_image {
+  float: left;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+#history-text {
+  padding-top: 10px;
+}
+#ICMS_mission {
+  width: 400px;
+  float: left;
+  margin-right: 30px;
+}
+#mission {
+  height: 230px;
+  margin-top: 30px;
+}
+#mission_image {
+/*  margin-top: 80px;*/
+  padding-top:40px ;
+  height: 170px;
+  margin-right: 10px;
+}
+#vis {
+margin-top: 50px;
+}
+#vision_vid_href {
+float: left;
+margin-right: 40px;
+margin-bottom: 50px;
+}
+#vision {
+margin-top: 50px;
+}
+#about{
+  margin-right:60px;
+  margin-left: 60px;
+}
+/*about us page css ends here*/
+/* Style the body */
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+
+/*chairman message page css start here*/
+#chairman_message {
+  margin-top: 60px;
+  margin-right: 70px;
+}
+#message {
+  margin-right: 80px;
+  margin-bottom: 20px;
+  height: 500px;
+
+}
+#chairman_image {
+  float: left;
+  margin-right: 70px;
+  margin-left: 50px;
+}
+#chairman_ICMS_mission {
+  float: left;
+  width: 400px;
+  margin-right: 30px;
+  margin-left: 50px;
+}
+
+#mission_image {
+/*  margin-top: 80px;*/
+  padding-top:40px ;
+  height: 170px;
+  margin-right: 10px;
+}
+
+#chairman_mission {
+  height: 200px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+/*chairman message page css ends here*/
+
+
+
+/*board of geverners page css start here*/
+#boardOfGoverner {
+  text-align: center;
+}
+#boardOfGoverner_image {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*board of geverners page css end here*/
+
+
+/*ICMS History page css start here*/
+
+#ICMS_HISTORY {
+  width: 450px;
+  float: left;
+  margin-right: 40px;
+}
+
+.ICMS_HISTORY {
+  margin: 50px;
+}
+#ICMS_HISTORY_href {
+  float: left;
+}
+#ICMS_HISTORY_main {
+  margin-bottom: 50px;
+  height: 450px;
+}
+#ICMS_CAMPUSES {
+  height: 70px;
+  width: 220px;
+  margin-left: 20px;
+  padding-top: 160px;
+  float: left;
+}
+#warsak_campus {
+  margin-left: 20px;
+  margin-bottom: 40px;
+    border: 1px solid #DED2D2;
+  float: left;
+  height: 430px;
+  width: 350px;
+  text-align: center;
+   font-size: 12px;
+}
+#tarnab_campus {
+  border: 1px solid #DED2D2;
+  float: left;
+  height: 430px;
+  margin-left: 20px;
+  width: 350px;
+  text-align: center;
+  font-size: 12px;
+}
+h1, h2, ul, h3 {
+  font-family:Roboto Condensed;
+}
+p {
+  font-family:Roboto Condensed;
+}
+/*ICMS History page css ENDs here*/
+
+/*ICMS Winnig points css start here*/
+
+#winning_points, #co_act {
+  margin: 70px;
+}
+
+

@@ -1,0 +1,20 @@
+html body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+  
+}
+
+
+.abt-title h2::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 10%;
+    height: 5px;
+    width: 100px;
+    background-color: #003e78;
+}
+.container{
+    margin-bottom: 10%;
+
+}

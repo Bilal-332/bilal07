@@ -1,0 +1,33 @@
+html body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    line-height: 26px;
+    font-weight: 400;
+    overflow-x: hidden;
+    
+}
+
+.container {
+    margin-top: 5%;
+}
+
+.container h2,
+p {
+    text-align: center;
+}
+
+.container h2::after {
+    content: "";
+    position: absolute;
+    left: 630px;
+    top: 25%;
+    height: 3px;
+    width: 100px;
+    background: #003e78;
+}
+.row{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+}

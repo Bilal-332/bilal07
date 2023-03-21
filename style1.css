@@ -1,0 +1,55 @@
+
+/*chairman message page css start here*/
+#chairman_message {
+  margin-right: 150px;
+  margin-left: 150px;
+
+}
+#message {
+  margin-top: 60px;
+  margin-right: 150px;
+  margin-bottom: 250px;
+}
+#chairman_image {
+  float: left;
+  margin-right: 30px;
+/*  margin-left: 50px;*/
+}
+#mission_image {
+  margin-left: 20px;
+  padding-top: 30px;
+}
+#ICMS_mission {
+  float: left;
+  margin-right: 30px;
+}
+#mission {
+  margin-bottom: 60px;
+}
+/*chairman message page css ends here*/
+
+
+
+/*board of geverners page css start here*/
+#boardOfGoverner {
+  text-align: center;
+}
+#boardOfGoverner_image {
+  padding-top: 30px;
+}
+/*board of geverners page css end here*/
+
+
+
+
+/*Winning points page css start here*/
+
+
+
+
+
+
+
+
+
+

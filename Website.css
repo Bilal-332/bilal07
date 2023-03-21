@@ -1,0 +1,406 @@
+.top-header {
+    background-color: rgb(1, 51, 143);
+    height: 40px; text-align: center;
+}
+.text-top {
+    float: left;
+    margin: 6px; padding-left: 35px; 
+    padding-top: 5px; color: aliceblue;
+    font-weight: bold;
+}
+.btn {
+    background-color: rgb(206, 159, 4);
+    text-decoration:none;
+    padding: 23px; padding-top: 10px;
+    float: right; padding-bottom: 12px;
+    color: aliceblue; margin-left: 3px;
+    font-family: sans-serif;margin-right:5px;
+}.btn :hover{
+    color:  rgb(131, 108, 35);
+    transition: 1s ease;
+}
+
+.apply-btn {
+    background-color: red; text-decoration: none;
+    font-family: sans-serif; padding: 23px;
+    padding-top: 10px; padding-bottom: 12px;
+    text-align: center; float: right;
+    color: aliceblue; margin-left: 3px;
+    margin-right: 3px;
+}
+@keyframes blink{
+    60%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+}
+
+.apply-btn span{
+    animation: blink 1s linear infinite;
+}
+.section2{
+    margin-top: 10px; 
+}
+.logo-area{
+    margin-left: 80px; 
+    float: left; margin-top: 23px;
+}
+.section2 ul{
+    list-style-type: none;
+}
+.section2 ul li{
+    display: inline-block;
+    margin-left: 0px;
+}
+.icon{
+    width: 57px; height: 50px;
+    float: left; margin-left: 105px;
+}
+h3{
+   font-family: sans-serif; 
+   position: relative;
+}
+.contact{
+    text-decoration: none; color: black; 
+}
+marquee{
+    font-family: sans-serif;
+    width: 60%; float: right;
+    margin-right: 60px;
+    color: red; font-weight: bold;
+}
+.section3{
+    margin-top: 30px;  
+    margin-left: 23px;
+    position: absolute;
+    background-position:fixed;
+}.section3 ul{
+    width: 96.56%;  height: 50px;
+    background-color: rgb(1, 51, 143);
+    list-style-type: none;
+}.section3 ul li{
+    float: left; text-decoration: none;
+    margin-left: 20px;
+    margin-top: 15px;
+}.section3 ul li a{
+    text-decoration: none;
+    color: white; font-family: sans-serif;
+    font-weight: bold;
+}.section3 ul li a img{
+    width: 23px;margin-right: 3px;
+}
+.section3 ul a span img {
+    padding: 12.5px;
+    background-color: rgb(228, 162, 19);
+    width: 25px; 
+}
+.section3 ul a span img:hover{
+    background-color: rgb(10, 43, 105); ;
+}
+.section3 ul li a:hover{
+    color: rgb(177, 167, 167);
+    transition: .5s ease-in-out;
+}
+.section3 ul li ul li{
+	margin-top: 15px;
+	font-weight: bold;
+}
+.section3 ul li ul{
+    list-style-type: none;
+	box-shadow: 5px 10px 20px rgb(40, 40, 40);
+	position: absolute; background-color: rgb(51, 70, 240);
+	display: none;
+}
+.section3 ul li:hover ul{
+	display: block;
+	width: 20%; height: fit-content;
+}
+.slider-img img{
+    width: 100%; margin-top: 50px; 
+    
+}
+.section4 ul{
+    list-style-type: none;
+}
+.section4 ul li{
+    float: left;
+    position: relative;
+}
+.section4 ul li img{
+    width: 300px;  height: 250px;
+    margin-top: -115px;
+}
+.aboutus{
+    text-align: center; margin-top: 90px;
+}
+.aboutus h1{
+    font-family: sans-serif;
+}.aboutus p{
+    font-family: sans-serif; font-size: 1.2pc;
+    color: rgb(61, 59, 59); margin-left: 4%;
+}.aboutus hr{
+    height: 3px; width: 140px;
+    background-color: rgb(1, 51, 143);
+}
+.section5 img{
+    margin-top: 0px; margin-left: 5%;
+    width: 47%; float: left;
+}
+.section5 a .icon{
+    position: absolute;
+    width: 65px; margin-top: 125px;
+    margin-left: 20pc;
+    height: 65px;
+}
+.welcome-sec{
+    margin-top: 60px; margin-left: 55%; 
+}.welcome-sec h2{
+    font-family: sans-serif;
+}.welcome-sec p{
+    font-family: sans-serif; font-size: 1.1pc;
+    color: rgb(61, 59, 59); line-height: 2pc;
+}
+.welcome-sec details {
+    margin-top: 15px;  color: aliceblue;
+    width: 95%;  height: 50px;
+    background-color: rgb(1, 51, 143);
+    font-size: 16px; display: inline;
+}
+.welcome-sec details summary{
+   font-family: sans-serif; font-weight: bold;
+   padding-top: 1pc; margin-left: 1pc;
+}
+.welcome-sec .details:hover{
+	color: white;
+	background-color:rgb(1, 51, 143);
+}
+.welcome-sec .details:hover .p{
+  color: black;
+  display: block; padding: auto;
+  font-weight: 20;
+}
+.welcome-sec .details{
+    background-color:rgb(240, 236, 236);
+    margin-top: 15px; color: black;
+    width: 95%;  height: 50px;
+    font-size: 16px;
+}.shine-stars{
+    text-align: center; margin-top: 90px;
+    background-color: rgb(240, 236, 236);
+    height: 60pc;
+}
+.shine-stars h1{
+    font-family: sans-serif; padding-top: 60px;
+}.shine-stars p{
+    font-family: sans-serif; font-size: 1.2pc;
+    color: rgb(61, 59, 59); margin-left: 4%;
+}.shine-stars hr{
+    height: 3px; width: 140px;
+    background-color: rgb(1, 51, 143);
+}
+.section6{
+    float: left;
+}.section6 img{
+    margin-top: 30px; padding: 5px;
+    width: 380px; height: 320px;
+}
+.acheive-sec img{
+    width: 100%; height: 40pc;
+}.acheive-sec .section7 {
+    position: absolute;
+    margin-top: -38pc; margin-left: 6pc;
+}
+.acheive-sec .section7 h2{
+    color: white; font-family: sans-serif;
+    font-size: 2pc;
+}.acheive-sec .section7 p{
+    color:rgb(177, 167, 167); font-family: sans-serif;
+    margin-top: 1.5pc;
+}.acheive-sec .section7 img{
+    width: 400px; height: 300px;
+    margin-top: 3pc;
+    border-radius: 20px;
+}.acheive-sec .branches{
+    border: 1px solid rgb(102, 102, 102);
+    width: 15pc; height: 7pc;
+    text-align: center;padding: 1.5pc;
+    margin-left: 38pc; margin-top: -30pc;
+    position: absolute;
+}.acheive-sec .branches h1{
+    color: white; font-family: sans-serif;
+    font-size: 3.5pc; margin-top: 5px;
+}.acheive-sec .branches h2{
+    color: white; font-family: sans-serif;
+    margin-top: -2pc;
+}
+.acheive-sec .students{
+    border: 1px solid rgb(102, 102, 102);
+    width: 15pc; height: 7pc;
+    text-align: center;padding: 1.5pc;
+    margin-left: 58pc; margin-top: -30pc;
+    position: absolute;
+}.acheive-sec .students h1{
+    color: white; font-family: sans-serif;
+    font-size: 3.5pc; margin-top: 5px;
+}.acheive-sec .students h2{
+    color: white; font-family: sans-serif;
+    margin-top: -2pc;
+}
+.acheive-sec .teachers{
+    border: 1px solid rgb(102, 102, 102);
+    width: 15pc; height: 7pc;
+    text-align: center;padding: 1.5pc;
+    margin-left: 38pc; margin-top: -18pc;
+    position: absolute;
+}.acheive-sec .teachers h1{
+    color: white; font-family: sans-serif;
+    font-size: 3.5pc; margin-top: 5px;
+}.acheive-sec .teachers h2{
+    color: white; font-family: sans-serif;
+    margin-top: -2pc;
+}
+.acheive-sec .courses{
+    border: 1px solid rgb(102, 102, 102);
+    width: 15pc; height: 7pc;
+    text-align: center;padding: 1.5pc;
+    margin-left: 58pc; margin-top: -18pc;
+    position: absolute;
+}.acheive-sec .courses h1{
+    color: white; font-family: sans-serif;
+    font-size: 3.5pc; margin-top: 5px;
+}.acheive-sec .courses h2{
+    color: white; font-family: sans-serif;
+    margin-top: -2pc;
+}
+.latest-news{
+    text-align: center; margin-top: 100px;
+}
+.latest-news h1{
+    font-family: sans-serif; padding-top: 60px;
+}.latest-news p{
+    font-family: sans-serif; font-size: 1.1pc;
+    color: rgb(61, 59, 59); margin-left: 1%;
+}.latest-news hr{
+    height: 3px; width: 140px;
+    background-color: rgb(1, 51, 143);
+}
+.section8{
+     height: 12pc; margin-top: 7pc;
+    background-color: rgb(10, 43, 105);
+    margin-left: 5pc; margin-right: 5pc;
+    border-radius: 40px;
+    background-position: fixed;
+    position: relative;
+    box-shadow:black;
+}
+.section8 ul{
+    list-style-type: none;
+    
+}.section8 ul li{
+    text-align: center;
+    float: left; margin-left: 8pc;
+    margin-top: 2pc;
+}.section8 ul li h2{
+    color: aliceblue; font-family: sans-serif;
+}.section8 ul li p{
+    color: aliceblue; font-family: sans-serif;
+}
+.footer .footer-bg{
+    margin-top: -5.5pc; 
+    width: 100%; height:37pc;
+}
+.footer .part1 ,.part2 ,.part3,.part4{
+    position: relative;
+    float: left; width: 25%; 
+}.footer .part1{
+    margin-top: -27pc;
+    margin-left: 3pc; 
+}.footer .part1 p{
+    color: aliceblue; font-family: sans-serif;
+    padding-top: 1.5pc;
+}
+.footer .part2{
+    margin-top: -28pc;
+    margin-left: 23pc; 
+}.footer .part2 h2{
+    color: aliceblue; font-family: sans-serif;
+}.footer .part2 ol{
+    list-style-type: none;
+}.footer .part2 ol li a{
+    text-decoration: none;color: aliceblue;
+    
+}.footer .part2 ol li{
+    padding-top: 1pc;
+}
+.footer .part3{
+    margin-top: -24.5pc;
+    margin-left: 39pc;}
+.footer .part3 ol{
+    list-style-type: none;
+}.footer .part3 ol li a{
+    text-decoration: none;color: aliceblue;
+    
+}.footer .part3 ol li{
+    padding-top: 1pc;
+}
+.footer .part3 ol li a:hover,.footer .part2 ol li a:hover{
+    color: rgb(1, 51, 143);
+    transition: .5s ease;
+}
+.footer .part4{
+    margin-top: -28pc;
+    margin-left: 55pc;
+}
+.footer .part4 h2{
+    color: aliceblue;font-family: sans-serif;
+}.footer .part4 p{
+    color: aliceblue;  padding-top: 1.5pc;
+}.footer .part4 input{
+   height: 3pc; width: 13pc; background: transparent; 
+   color: aliceblue; border-color: rgb(27, 76, 167);
+   margin-top: 1.7pc;
+} 
+.footer .part4 button{
+    height: 3.6pc;width: 3.5pc; color: aliceblue;
+    background-color: rgb(1, 51, 143);
+    border-color: rgb(1, 51, 143); margin-top: 2pc;
+    font-size: 1.2pc; font-weight: bold;
+}
+.footer-icons {
+    margin-top: -8pc;
+    margin-left: 33pc;
+
+}.footer-icons a{
+   border: 1px solid gray;
+   padding: 1pc; margin-left: 1pc;
+   border-radius: 50%;
+   background-color: rgb(172, 164, 245);
+}.footer-icons a img{
+      width: 1pc; 
+}
+.footer-icons a:hover{
+    background-color: rgb(1, 51, 143);
+    transition: .5s ease;
+}
+.footer hr{
+    width: 100%; margin-top: 3.5pc;
+    position: absolute;   
+}.footer .last-p{
+    color: aliceblue;
+    margin-top: 4.5pc;text-align: center;
+}
+
+    @keyframes blink{
+        60%{
+            opacity: 0;
+        }
+        30%{
+            opacity: 0;
+        }
+    }
+.footer .last-p span{
+        animation: blink 1s linear infinite;
+        color: rgb(36, 252, 180);
+    }
